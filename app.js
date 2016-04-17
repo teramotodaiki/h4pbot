@@ -2,7 +2,8 @@ var builder = require('botbuilder');
 var restify = require('restify');
 
 var bot = new builder.BotConnectorBot({
-  appId: '', appSecret: ''
+    appId: process.env.BOTFRAMEWORK_APPID,
+    appSecret: process.env.BOTFRAMEWORK_APPSECRET
 });
 
 bot.add('/', function (session) {
