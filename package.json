@@ -1,0 +1,23 @@
+{
+  "name": "h4pbot",
+  "version": "1.0.0",
+  "description": "HackforPlay API reference bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teramotodaiki/h4pbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teramotodaiki/h4pbot/issues"
+  },
+  "homepage": "https://github.com/teramotodaiki/h4pbot#readme",
+  "dependencies": {
+    "botbuilder": "^0.8.0",
+    "restify": "^4.0.4"
+  }
+}
